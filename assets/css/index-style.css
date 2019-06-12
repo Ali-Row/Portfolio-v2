@@ -1,0 +1,67 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+p, .w3-large, .w3-top {
+  z-index: 1;
+  font-family: 'Gudea', sans-serif;
+}
+
+.w3-bar {
+  opacity: 0.9;
+}
+
+.w3-content {
+  background: white;
+  max-width: 1060px !important;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h2 {
+  font-family: 'Satisfy', cursive;
+  font-size: 40px;
+}
+
+h3, h4 {
+  font-family: 'Gudea', sans-serif;
+}
+
+#carouselExampleInterval {
+  z-index: 0;
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+.fb-in-logo {
+  margin-top: 3px;
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.profile {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.profile:hover {
+  margin-top: -10px;
+
+  transition: margin-top 0.1s ease-out;
+  -moz-transition: margin-top 0.1s ease-out;
+  -webkit-transition: margin-top 0.1s ease-out;
+  -o-transition: margin-top 0.1s ease-out;
+}
+
+.profile:active {
+  margin-top: 0px;
+}
+
+footer {
+  background-image: linear-gradient(rgb(48, 48, 48), rgb(0, 0, 0));
+}
