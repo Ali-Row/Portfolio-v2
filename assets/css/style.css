@@ -1,0 +1,66 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+p,
+.w3-large,
+.w3-top {
+  z-index: 1;
+  font-family: "Gudea", sans-serif;
+}
+.w3-bar,
+footer {
+  opacity: 0.9;
+}
+.w3-content {
+  background: white;
+  margin-top: 46px;
+  max-width: 1060px !important;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h2 {
+  font-family: "Satisfy", cursive;
+  font-size: 40px;
+}
+.profile {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#contact-container {
+  background: white;
+  max-width: 1060px !important;
+  padding: 20px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.profile {
+  -webkit-transition: margin-top 0.08s;
+  transition: margin-top 0.08s;
+}
+.profile {
+  transition-timing-function: linear;
+}
+.profile:hover {
+  margin-top: -5px;
+}
+a {
+  text-decoration: none !important;
+}
+.custom-btn {
+  background: black !important;
+  margin-top: black !important;
+  padding: 9px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.custom-btn:hover {
+  background: #494949 !important;
+}
+footer {
+  padding: 60px;
+}
