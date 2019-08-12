@@ -26,9 +26,6 @@ h2 {
     font-family: 'Satisfy', cursive;
     font-size: 40px;
 }
-.profile {
-    box-shadow: $globalShadow;
-}
 #contact-container {
     background: white;
     max-width: $globalWidth;
@@ -40,20 +37,22 @@ form {
     margin: 0 auto;
 }
 .profile {
+    box-shadow: $globalShadow;
     -webkit-transition: margin-top 0.08s;
     transition: margin-top 0.08s;
-  }
-  .profile {
+}
+.profile {
     transition-timing-function: linear;
-  }
-  .profile:hover {
+}
+.profile:hover {
     margin-top: -5px;
-  }
+}
 a {
     text-decoration: none !important;
 }
 .custom-btn {
     background: black !important;
+    border: solid black;
     margin-top: black !important;
     padding: 9px;
     padding-left: 12px;

@@ -25,9 +25,6 @@ h2 {
   font-family: "Satisfy", cursive;
   font-size: 40px;
 }
-.profile {
-  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 #contact-container {
   background: white;
   max-width: 1060px !important;
@@ -39,6 +36,7 @@ form {
   margin: 0 auto;
 }
 .profile {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   -webkit-transition: margin-top 0.08s;
   transition: margin-top 0.08s;
 }
@@ -53,6 +51,7 @@ a {
 }
 .custom-btn {
   background: black !important;
+  border: solid black;
   margin-top: black !important;
   padding: 9px;
   padding-left: 12px;
