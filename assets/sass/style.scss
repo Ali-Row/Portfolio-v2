@@ -20,7 +20,7 @@ p, .w3-large, .w3-top {
     background: white;
     margin-top: 46px;
     max-width: $globalWidth;
-    box-shadow: $globalShadow;
+    box-shadow: $globalShadow;      
 }
 h2 {
     font-family: 'Satisfy', cursive;
@@ -38,7 +38,8 @@ form {
 }
 .profile {
     box-shadow: $globalShadow;
-    -webkit-transition: margin-top 0.08s;
+    -webkit-transition: transform 0.08s;
+    transition: transform 0.08s;
     transition: margin-top 0.08s;
 }
 .profile {
@@ -46,6 +47,7 @@ form {
 }
 .profile:hover {
     margin-top: -5px;
+    transform: skewY(-1deg);
 }
 a {
     text-decoration: none !important;

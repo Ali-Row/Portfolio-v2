@@ -37,7 +37,8 @@ form {
 }
 .profile {
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  -webkit-transition: margin-top 0.08s;
+  -webkit-transition: transform 0.08s;
+  transition: transform 0.08s;
   transition: margin-top 0.08s;
 }
 .profile {
@@ -45,6 +46,7 @@ form {
 }
 .profile:hover {
   margin-top: -5px;
+  transform: skewY(-1deg);
 }
 a {
   text-decoration: none !important;
