@@ -2,6 +2,10 @@ $globalFont: "Lato", sans-serif;
 $globalWidth: 1060px !important;
 $globalShadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
 body {
     font-family: $globalFont;
     background-size: cover;
@@ -16,11 +20,15 @@ p, .w3-large, .w3-top {
 .w3-bar, footer {
     opacity: 0.9;
 }
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
 .w3-content {
     background: white;
     margin-top: 46px;
     max-width: $globalWidth;
-    box-shadow: $globalShadow;      
+    box-shadow: $globalShadow;
 }
 .my-img {
     margin-top: 93px !important;
@@ -70,6 +78,7 @@ a {
 .custom-btn:hover {
     background: rgb(73, 73, 73) !important;
 }
-footer {
+footer, .push {
+    height: 50px;
     padding: 60px;
 }
