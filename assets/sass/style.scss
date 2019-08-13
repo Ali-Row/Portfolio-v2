@@ -12,7 +12,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: url("assets/images/Wallpaper-2.jpg") !important;
+    background-image: url("/assets/images/Wallpaper-2.jpg");
 }
 p, .w3-large, .w3-top {
     z-index: 1;
@@ -39,7 +39,7 @@ p, .w3-large, .w3-top {
     padding: 25px;
 }
 .active {
-    border-bottom: solid rgb(255, 255, 255) 5px !important;
+    border-bottom: solid 5px rgb(255, 255, 255) !important;
 }
 .w3-button:hover {
     color: rgb(197, 197, 197) !important;
