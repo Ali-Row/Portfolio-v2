@@ -5,81 +5,60 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
 <link rel="shortcut icon" href="assets/images/Me.jpg" type="image/x-icon">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<!-- Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Gudea|Lato|Satisfy&display=swap" rel="stylesheet">
-<!-- Font awesome icons -->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<link rel="stylesheet" href="assets/sass/w3.css">
 <link rel="stylesheet" href="assets/sass/style.css">
 </head>
 
-<body background="assets/images/Wallpaper-2.jpg">
-
+<body>
 <!-- Navbar -->
 <div class="w3-top">
     <div class="w3-bar w3-black w3-card">
       <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-      <a href="index.html" class="w3-grey w3-bar-item w3-button w3-padding-large">HOME</a>
+      <a href="index.html" class="active w3-bar-item w3-button w3-padding-large">HOME</a>
       <a href="portfolio.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PORTFOLIO</a>
       <a href="contact.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
     </div>
-  </div>
+</div>
     
-    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
     <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
       <a href="portfolio.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PORTFOLIO</a>
       <a href="contact.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
     </div>
 
 <div class="wrapper">
-
 <!-- Page content -->
 <div class="w3-content">
-
-  </div>
     <!-- The Section -->
     <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
-
       <div class="w3-row">
         <div class="w3-col l4">
           <img src="assets/images/Me.jpg" class="my-img" alt="Picture of Alistair" style="max-width:240px; margin-top: 10px;"> 
         </div>
-  
-       <div class="w3-col l8">
-          <h2>About Me</h2>
-    
-          <p class="w3-justify bio"> My name is Alistair Rowden I am originally from the United Kingdom and have had an interest in
-            IT and computers since an early age, I was mainly into building
-            computers and tinkering with software and games, my first foray into
-            the programming/web development world was back in college when I was
-            learning about HTML, back then I had little interest in the subject but it slowly grew on
-            me in later years. <br><br>
-            
-            In my spare time I mostly hang out with my wife, our cat and her
-            family, also from time to time I build ATV's & dirtbikes to blow off
-            steam and race them around trails near where I live, I am also an
-            avid mechanic working on countless cars and projects, I edit photos and design logos with Adobe Photoshop and most of all
-            I have an extensive background making music under the alias <em>"Katakai"</em> on
-            Soundcloud, I have been making music in FL Studio for over 6 years and have amassed a huge understanding
-            of how to make and process each and every sound.</p>        
-        </div>
+            <div class="w3-col l8">
+                <h2>About Me</h2>
+                <p class=" w3-large bio"> My name is Alistair Rowden I am originally from the United Kingdom and have had an interest in
+                  IT and computers since an early age, I was mainly into building
+                  computers and tinkering with software and games, my first foray into
+                  the programming/web development world was back in college when I was
+                  learning about HTML & CSS, back then I had little interest in the subject but it slowly grew on
+                  me in later years, fast forward to today I am a Full Stack Developer fresh out of the University of Richmond's Coding Bootcamp.
+                  Beyond coding and web development I mostly hang out with my wife, our cat and her
+                  family.</p>        
+            </div>
       </div> 
-  
     </div> 
-  <!-- End Page Content -->
   </div>
+</div>
 
 <div class="push"></div>
 
-<!-- Footer -->
 <footer class="w3-black text-center">
-  <p class="w3-large">Built by<a href="https://github.com/Ali-Row" target="_blank"> Alistair Rowden</a></p>
+  <p class="w3-large w3-center">Built by<a href="https://github.com/Ali-Row" target="_blank"> Alistair Rowden</a></p>
 </footer>
 
-
 <script>
-
 // Used to toggle the menu on small screens when clicking on the menu button
 function myFunction() {
   var x = document.getElementById("navDemo");
@@ -90,10 +69,6 @@ function myFunction() {
   }
 }
 </script>
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
 </html>

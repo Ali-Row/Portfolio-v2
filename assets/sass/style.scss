@@ -12,6 +12,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-image: url("/assets/images/Wallpaper-2.jpg") !important;
 }
 p, .w3-large, .w3-top {
     z-index: 1;
@@ -26,16 +27,23 @@ p, .w3-large, .w3-top {
 }
 .w3-content {
     background: white;
-    margin-top: 46px;
+    margin-top: 51px;
     max-width: $globalWidth;
     box-shadow: $globalShadow;
 }
 .my-img {
-    margin-top: 93px !important;
+    margin-top: 107px !important;
     box-shadow: $globalShadow;
 }
 .bio {
     padding: 25px;
+}
+.active {
+    border-bottom: solid rgb(255, 255, 255) 5px !important;
+}
+.w3-button:hover {
+    color: rgb(197, 197, 197) !important;
+    background: #000000 !important;
 }
 h2 {
     font-family: 'Satisfy', cursive;
@@ -70,7 +78,6 @@ a {
 .custom-btn {
     background: black !important;
     border: solid black;
-    margin-top: black !important;
     padding: 9px;
     padding-left: 12px;
     padding-right: 12px;
@@ -81,4 +88,10 @@ a {
 footer, .push {
     height: 50px;
     padding: 60px;
+}
+
+@media screen and (max-width: 768px) {
+    .w3-content {
+        margin-top: 46px;
+    }
 }
