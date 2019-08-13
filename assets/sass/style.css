@@ -9,7 +9,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-image: url("./assets/images/Wallpaper-2.jpg") !important;
+  background-image: url("assets/images/Wallpaper-2.jpg") !important;
 }
 p,
 .w3-large,
