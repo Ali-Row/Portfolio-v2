@@ -39,7 +39,7 @@
             <h2 class="w3-center display-4">Contact</h2>
             <h6 class="w3-opacity w3-center"><i>Want to get in touch?</i></h6>
   
-            <form>
+            <form action="javascript:sendMail();">
               <div class="form-group row">
                 <label for="inputName3" class="col-sm-1 col-form-label">Name:</label>
                 <div class="col-sm-12">
@@ -93,6 +93,10 @@ function myFunction() {
   } else { 
     x.className = x.className.replace(" w3-show", "");
   }
+}
+
+function sendMail() {
+  window.open('mailto:deadlyhardware@gmail.com');
 }
 </script>
 
