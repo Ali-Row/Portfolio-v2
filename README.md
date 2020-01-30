@@ -1,5 +1,5 @@
-# Portfolio-V2
+# Portfolio-v2
 
 This is my old developer portfolio (Version 2 to be exact)
 
-**LIVE DEMO: https://ali-row.github.io/Portfolio-V2/**
+**LIVE DEMO: https://ali-row.github.io/Portfolio-v2/**
